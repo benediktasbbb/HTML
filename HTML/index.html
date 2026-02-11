@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
-    <h1>LABS</h1>
-    <p>LABUKS</p>
+    <header>
+        <h1>Lietuviški patiekalai</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Apie</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat illum quaerat laboriosam, harum
+                delectus ex temporibus enim animi, eligendi officiis facilis sint nostrum in, tempora excepturi
+                exercitationem ipsam quis? Sed.</p>
+        </section>
+        <section>
+            <h2>Galerija</h2>
+            <p>Keletas žinomų lietuviškų patiekalų</p>
+            <div class="Pictures">
+                <figure>
+                    <img src="IMG/cepelinai.jpg" alt="">
+                    <figcaption>Cepelinai</figcaption>
+                </figure>
+                <figure>
+                    <img src="IMG/saltibarsciai.jpg" alt="">
+                    <figcaption>Šaltibarščiai</figcaption>
+                </figure>
+                <figure>
+                    <img src="IMG/kugelis.jpg" alt="">
+                    <figcaption>Kugelis</figcaption>
+                </figure>
+            </div>
+            <p>Nuotraukos iš: atsisiųsto užduoties failo</p>
+        </section>
+        <section>
+            <h2>Ingridiantai (kugelio)</h2>
+            <p>Šioje lentelėje - pagrindiniai tradicinio kugelio ingridiantai ~4 porcijoms.</p>
+            <h3>Kugelio sudėtis</h3>
+            <table>
+                <th>Ingridiantai</th>
+                <th>Kiekis</th>
+                <tr>
+                    <td>Bulvės</td>
+                    <td>1,5kg</td>
+                </tr>
+                <tr>
+                    <td>Kiaušiniai</td>
+                    <td>3 vnt.</td>
+                </tr>
+                <tr>
+                    <td>šoninė</td>
+                    <td>150g</td>
+                </tr>
+                <tr>
+                    <td>Svogūnas</td>
+                    <td>1 vnt</td>
+                </tr>
+                <tr>
+                    <td>Pienas arba grietinėlė</td>
+                    <td> 200ml</td>
+                </tr>
+                <tr>
+                    <td>Druska, Pipirai</td>
+                    <td>Pagal skonį</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Kontaktų forma</h2>
+            <p>Turite klausimų ar pasiųlimų apie lietuviškus patiekalus? Parašykite:</p>
+            <form action="">
+                <h3>Vardas</h3>
+                <input type="text" placeholder="Vardas">
+                <h3>El. paštas</h3>
+                <input type="email" placeholder="mano.pastas@gmail.com">
+                <h3>Tema</h3>
+                <select name="tema" id="tema">
+                    <option value="Pyktis">Pyktis</option>
+                    <option value="Pasiūlimas">Pasiūlimas</option>
+                </select>
+                <h3>Žinutė</h3>
+                <textarea name="Žinutė" id="Žinutė" placeholder="Noriu pasakyti..."></textarea>
+                <button>Siųsti</button>
+            </form>
+        </section>
+    </main>
+    <footer><p>Lietuviski patiekalai</p></footer>
 </body>
+
 </html>

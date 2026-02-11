@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+header {
+    margin: 50px auto;
+    margin-bottom: 10px;
+    background-color: rgb(221, 198, 164);
+    text-align: center;
+    width: 800px;
+    height: 100px;
+    border: solid 2px rgb(155, 126, 87);
+}
+
+body {
+    background-color: bisque;
+}
+
+section {
+    border: solid 2px rgb(202, 148, 49);
+    border-radius: 10px;
+    width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+}
+
+.Pictures {
+    display: flex;
+}
+
+figure {
+    margin: 2px;
+    width: 33%;
+}
+
+img {
+    width: 95%;
+    border-radius: 10px;
+}
+
+tr {
+    width: 500px;
+    height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: bisque;
+}
+
+th,
+td {
+    border: solid 2px black;
+    width: 380px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+input {
+    height: 25px;
+    border-radius: 5px;
+    width: 100%;
+    border: solid 2px rgb(179, 135, 83);
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 2px rgb(179, 135, 83);
+}
+
+button {
+    width: 60px;
+    height: 25px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+    align-content: center;
+    width: 800px;
+    margin: 0 auto;
+    height: 100px;
+    color: white;
+}
